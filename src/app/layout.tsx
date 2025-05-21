@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -10,9 +10,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "SMKN 1 Kawali",
   description: "SMKN 1 Kawali adalah sekolah menengah kejuruan unggulan yang berfokus pada pendidikan berkualitas dan pengembangan keterampilan siswa.",
-  keywords: [
+  keyw: [
     "SMKN 1 Kawali",
-    "Sekolah Menengah Kejuruan",
+    "Sekolah Menengah Kejuruan"
     "Pendidikan Kejuruan",
     "Kawali",
     "Sekolah Terbaik",
