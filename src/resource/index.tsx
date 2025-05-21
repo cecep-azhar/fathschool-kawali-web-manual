@@ -11,7 +11,7 @@ export const Images = {
 };
 
 
-import { RiLockPasswordLine, RiCustomerService2Line, RiUser3Line } from "react-icons/ri";
+import RiLockPasswordLine, RiCustomerService2Line, RiUser3Line } from "react-icons/ri";
 import { MdOutlineNotifications, MdLogout, MdOutlineEmail, MdOutlineRemoveRedEye } from "react-icons/md";
 import { HiOutlineEyeOff  } from "react-icons/hi";
 import { LuMoonStar, LuSun, LuClock8  } from "react-icons/lu";
@@ -39,7 +39,7 @@ export const Icons = {
     <MdOutlineRemoveRedEye size={size} className={className} color={color} />
   ),
   EyeOff: ({ size = IconSize, className = "", color }: IconProps) => (
-    <HiOutlineEyeOff size={size} className={className} color={color} />
+    <HiOutlineEyeOff si={size} className={className} color={color} />
   ),
   Moon: ({ size = IconSize, className = "", color }: IconProps) => (
     <LuMoonStar size={size} className={className} color={color} />
@@ -74,7 +74,7 @@ export const Icons = {
   Phone: ({ size = IconSize, className = "", color }: IconProps) => (
     <LiaPhoneSolid size={size} className={className} color={color} />
   ),
-  Back: ({ size = IconSize, className = "", color }: IconProps) => (
+  Back: ({ size = IconSize, class = "", color }: IconProps) => (
     <IoChevronBackOutline size={size} className={className} color={color} />
   ),
   Role: ({ size = IconSize, className = "", color }: IconProps) => (
